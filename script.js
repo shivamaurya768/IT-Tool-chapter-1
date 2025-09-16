@@ -55,7 +55,7 @@ let q = [
                     "None": false
                 }
             ],
-            ["Q-->8 which input devic translates physical movement into digital signals ? ",
+            ["Q-->8 which input device translates physical movement into digital signals ? ",
                 {
                     "keybord": false,
                     "Mouse": true,
@@ -79,7 +79,7 @@ let q = [
                     "all of the above": true
                 }
             ],
-            ["Q-->11 if you have 4G of RAM how many megabytes do you have ?",
+            ["Q-->11 if you have 4GB of RAM how many megabytes do you have ?",
                 {
                     "4000 MB": false,
                     "4096 MB": false,
@@ -327,7 +327,7 @@ let q = [
                     "None of these": false
                 }
             ],
-            ["Q-->42 computer size was very in ?",
+            ["Q-->42 computer size was very larger in ?",
                 {
                     " first Generation computer": true,
                     "second Generation computer": false,
@@ -593,3 +593,4 @@ function login_usar(){
             render();
 
             //information();
+
