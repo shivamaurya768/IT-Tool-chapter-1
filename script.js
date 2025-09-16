@@ -155,8 +155,8 @@ let q = [
                 {
                     "can be null": false,
                     "can not be null": true,
-                    "": false,
-                    "": false
+                    "Both": false,
+                    "None": false
                 }
             ],
             ["Q-->21 which one of the following is volatile",
@@ -591,4 +591,5 @@ function login_usar(){
         submitQuiz();
         }, time_up)
             render();
+
             //information();
