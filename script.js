@@ -1,408 +1,409 @@
 let q = [
-            ["Q-->1 A keyboard is this of device ?",
-                {
-                    "black": false,
-                    "input": true,
-                    "output": false,
-                    "all of the above": false
+            ["Q-->1 Which transport layer protocal is used by DHCP",
+              {
+                    "TCP": false,
+                    "UDP": true,
+                    "DHCP":false,
+                    "All of these": false
                 }
             ],
-            ["Q-->2 the term computer is derived from",
-                {
-                    "Latin": true,
-                    "German": false,
-                    "French": false,
-                    "Arabic": false
-                }
-            ],
-            ["Q-->3 DMA stands for",
-                {
-                    "Distinct memory access": false,
-                    "Direct memory Access": true,
-                    "Direct module access": false,
-                    "Direct memory allocation": false
-                }
-            ],
-            ["Q-->4 FORTRAN stands for",
-                {
-                    "file translation": false,
-                    "Format translation": false,
-                    "Formula translation": true,
-                    "Floppy translation": false
-                }
-            ],
-            ["Q-->5 what technology charactrized the second generation of computer ?",
-                {
-                    "transistors": true,
-                    "integrated circuits": false,
-                    "microprocessors": false,
-                    "AI": false
-                }
-            ],
-            ["Q-->6 which of the following are devices",
-                {
-                    "hardware": false,
-                    "printer": false,
-                    "light pen": false,
-                    "all of the above": false
-                }
-            ],
-            ["Q-->7 Hybrid computer processed which type of signals",
-                {
-                    "Analog": false,
-                    "Digital": false,
-                    "Both": true,
-                    "None": false
-                }
-            ],
-            ["Q-->8 which input device translates physical movement into digital signals ? ",
-                {
-                    "keybord": false,
-                    "Mouse": true,
-                    "printer": false,
-                    "speakers": false
-                }
-            ],
-            ["Q-->9 which generation of computer used vacuum tubues ?",
-                {
-                    "first generation": true,
-                    " second generation": false,
-                    "third generation": false,
-                    "fourth generation": false
-                }
-            ],
-            ["Q-->10 which of following is not input device ?",
-                {
-                    "keyboard ": false,
-                    "joystick": false,
-                    "monitor": true,
-                    "all of the above": true
-                }
-            ],
-            ["Q-->11 if you have 4GB of RAM how many megabytes do you have ?",
-                {
-                    "4000 MB": false,
-                    "4096 MB": false,
-                    "2048 MB": false,
-                    "8192 MB": false
-                }
-            ],
-            ["Q-->12 what does RAM stand for",
-                {
-                    "Random access memory": true,
-                    "Read access memory": false,
-                    "Reay only memory": false,
-                    "Random access module": false
-                }
-            ],
-            ["Q-->13 what type of memory is typically used for non volatile data storage",
-                {
-                    "RAM": false,
-                    "ROM": true,
-                    "Cache": false,
-                    "all of these": false
-                }
-            ],
-            ["Q-->14 which does input devices",
-                {
-                    "printer": false,
-                    "speaker": false,
-                    "scanner": true,
-                    "all of these": false
-                }
-            ],
-            ["Q-->15 LED is a stands",
-                {
-                    "liquid crystal": false,
-                    "light emitting diode": true,
-                    "light emitting display": false,
-                    "cathode ray": false
-                }
-            ],
-            ["Q-->16 A ____ can make easier to play games ",
-                {
-                    "joystick": true,
-                    "mouse": false,
-                    "keyboard": false,
-                    "none": false
-                }
-            ],
-            ["Q-->17 John Mauchy and j. presper Eckert are the inventor of ___ computer",
-                {
-                    "ENIAC": true,
-                    "UNIVAC": false,
-                    "EDSAC": false,
-                    "Mark-1": false
-                }
-            ],
-            ["Q-->18 BIOS is used ____",
-                {
-                    "By operating system": true,
-                    "By compiler": false,
-                    "By interpreter": false,
-                    "Bu application software": false
-                }
-            ],
-            ["Q-->19 computer memory is measured in terms of.",
-                {
-                    "bytes": true,
-                    "meter": false,
-                    "second": false,
-                    "None": false
-                }
-            ],
-            ["Q-->20 The value of primary key.",
-                {
-                    "can be null": false,
-                    "can not be null": true,
+            ["Q-->2 which address schemes are used by ipv4 and ipv6 internet protocal ",
+              {
+                    "128-bit and 32 bit": false,
+                    "32-bit and 128-bit":true,
                     "Both": false,
                     "None": false
                 }
             ],
-            ["Q-->21 which one of the following is volatile",
-                {
-                    "RAM": true,
-                    "Floppy disk": false,
-                    "both": false,
-                    "none": false
+            ["Q-->3 Which is the lowest lowest layer of OSI model",
+              {
+                    "Network": false,
+                    "physical": true,
+                    "Data link":false,
+                    "Application": false
                 }
             ],
-            ["Q-->22 _____ camera is a peripheral device used to capture still images in a digital format.",
-                {
-                    "Digital": true,
-                    "Analog": false,
-                    "Both": false,
-                    "None of these": false
+            ["Q-->4 Application layer of TCP/IP is equivalent to which OSI layers?",
+              {
+                    "Data link + Physical": false,
+                    "Network + Transport": false,
+                    "Session + Presentation + Application":true,
+                    "Physical + Network": false
                 }
             ],
-            ["Q-->23 which of then following the following retain the information It's storing when the power of the system is turned off ?",
-                {
-                    "CPU": false,
-                    "RAM": false,
-                    "ROM": true,
-                    "DIMM": false
+            ["Q-->5 Which is the most common lightweight protocol in IoT?",
+              {
+                    "HTTP": false,
+                    "MQTT":true,
+                    "FTP":false,
+                    "None": false
                 }
             ],
-            ["Q-->24 the size of virtual memory is based on : ",
-                {
-                    "RAM": false,
-                    "ROM": false,
-                    "Data bus": false,
-                    "Address bus": true
+            ["Q-->6 OSI model has how many layers?",
+              {
+                    "4": false,
+                    "5": false,
+                    "7":true,
+                    "8": false
                 }
             ],
-            ["Q-->25 which device is required for the internet connection?",
-                {
-                    "Joystick": false,
-                    "Modem": true,
-                    "CD Drive": false,
-                    "Pen drive": false
+            ["Q-->7 Refrigeration thermostat is which type of system?",
+              {
+                    "Open-loop": false,
+                    "Closed-loop": true,
+                    "Manual":false,
+                    "Hybrid": false
                 }
             ],
-            ["Q-->26 ALU is stands for",
-                {
-                    "Arithmetic logic unit": true,
-                    "Array logic unit": false,
-                    "appliction logic unit": false,
-                    "None of these": false
+            ["Q-->8 Which extra block is present in closed-loop control system?",
+              {
+                    "Amplifier": false,
+                    "Feedback": true,
+                    "Controller":false,
+                    "Comparator": false
                 }
             ],
-            ["Q-->27 The binary number 1110 is equal to the decimal number",
-                {
-                    "12": false,
-                    "13": false,
-                    "14": true,
-                    "16": false
+            ["Q-->9 Which is a feature of a control system?",
+              {
+                    "Stability": false,
+                    "Accuracy": false,
+                    "Sensitivity":false,
+                    "All of the above": true
                 }
             ],
-            ["Q-->28 _____ is the result produce by a computer",
-                {
-                    "Data": false,
-                    "memory": false,
-                    "Output": true,
-                    "Input": false
+            ["Q-->10 Working of a control system is based on:",
+              {
+                    "Input-Output relationship": true,
+                    "Random output": false,
+                    "Manual tuning":false,
+                    "None of the above": false
                 }
             ],
-            ["Q-->29 which is technology used in the evaluation of aptitude test",
-                {
-                    "OCR": false,
-                    "MICR": false,
-                    "OMR": true,
-                    "MCR": false
+            ["Q-->11 TCP/IP model has how many layers?",
+              {
+                    "4": true,
+                    "5": false,
+                    "6":false,
+                    "7": false
                 }
             ],
-            ["Q-->30 OCR is a stands for",
-                {
-                    "Optical character recognition": true,
-                    "Optical character rendering ": false,
-                    "other character restaration": false,
-                    "None of these": false
+            ["Q-->12 CoAP protocol is mainly used for:",
+              {
+                    "Email communication": false,
+                    "Resource-constrained IoT devices": true,
+                    "File transfer":false,
+                    "Video streaming": false
                 }
             ],
-            ["Q-->31 which of following is the smallest storage",
-                {
-                    "Megabyte": true,
-                    "Gigabyte": false,
-                    "Terabyte": false,
-                    "All of these": false
+            ["Q-->13 In simplex mode, data flow is:",
+              {
+                    "Both directions simultaneously": false,
+                    "In only one direction": true,
+                    "In alternate direction":false,
+                    "Random": false
                 }
             ],
-            ["Q-->32 which of the is not a binary number",
-                {
-                    "001": false,
-                    "101": false,
-                    "102": true,
-                    "011": false
+            ["Q-->14 Example of duplex transmission is:",
+              {
+                    "Keyboard to CPU": false,
+                    "Walkie-talkie": false,
+                    "Telephone":true,
+                    "Loudspeaker": false
                 }
             ],
-            ["Q-->33 RAM is also called as",
-                {
-                    "Read/write memory": false,
-                    "long memory": false,
-                    "permanent memory": false,
-                    "Real memory": false
+            ["Q-->15 Twisted pair cable is which type of media?",
+              {
+                    "Wireless": false,
+                    "Guided": true,
+                    "Unguided":false,
+                    "Optical": false
                 }
             ],
-            ["Q-->34 BIOS stands for",
-                {
-                    "Binary input output system": false,
-                    "Basic input output system": true,
-                    "Basic input off system": false,
-                    "All of these": false
+            ["Q-->16 Microwave communication is which type of media?",
+              {
+                    "Guided": false,
+                    "Unguided": true,
+                    "Wired":false,
+                    "Coaxial": false
                 }
             ],
-            ["Q-->35 1 byte =?",
-                {
-                    "8 bits": true,
-                    "4 bits": false,
-                    "2 bits": false,
-                    "16 bits": false
+            ["Q-->17 Main disadvantage of wired communication is:",
+              {
+                    "High speed": false,
+                    " High reliability": false,
+                    "High installation cost":true,
+                    " Low security": false
                 }
             ],
-            ["Q-->36 which of the following is also know as brain of computer  ?",
-                {
-                    "control unit": false,
-                    "central processing unit":true,
-                    "Arithmetic and language unit": false,
-                    "input device": false
+            ["Q-->18 Coaxial cable is mainly used for:",
+              {
+                    "Satellite communication": false,
+                    "LAN connection":true,
+                    "Telephone lines":false,
+                    "Fiber optic network": false
                 }
             ],
-            ["Q-->37 IBM 1401 is ",
-                {
-                    " first Generation computer": false,
-                    "second Generation computer": true,
-                    "third Generation computer": false,
-                    "fourth Generation computer": false
+            ["Q-->19  Decision-making in IoT happens at which stage?",
+              {
+                    "Data collection": false,
+                    "Data transmission": false,
+                    "Data processing":true,
+                    "Data visualization": false
                 }
             ],
-            ["Q-->38 Which of the following have the smellest storage capacity",
-                {
-                    "Floppy Disc": true,
-                    "Hard Disc": false,
-                    "CD": false,
-                    "DVD": false
+            ["Q-->20 Function of IP in TCP/IP model is:",
+              {
+                    "Error detection": false,
+                    "Reliable delivery": false,
+                    "Addressing & routing":true,
+                    "Data encryption": false
                 }
             ],
-            ["Q-->39 Mouse is also know as ",
-                {
-                    "pointer": false,
-                    "pointing device": true,
-                    "output": false,
+            ["Q-->21 What is the main function of the Physical layer?",
+              {
+                    "Error detection": false,
+                    "Data transmission in bits": true,
+                    "Routing":false,
+                    "Encryption": false
+                }
+            ],
+            ["Q-->22 The Transport layer mainly provides:",
+              {
+                    "Segmentation and reassembly of data": true,
+                    "Error correction at bit level": false,
+                    "Cable specification":false,
+                    "Web browsing": false
+                }
+            ],
+            ["Q-->23 The Presentation layer is responsible for:",
+              {
+                    "Translate, encrypt, compress data": true,
+                    "Routing": false,
+                    "Bit transmission":false,
+                    "Authentication": false
+                }
+            ],
+            ["Q-->24 The Application layer directly interacts with:",
+              {
+                    "Operating system": false,
+                    "User/application software": true,
+                    "Physical devices":false,
+                    "Transport layer": false
+                }
+            ],
+            ["Q-->25 “Frames” are the data unit of which OSI layer?",
+              {
+                    "Physical": false,
+                    "Data Link": true,
+                    "Network":false,
+                    "Transport": false
+                }
+            ],
+            ["Q-->26 In which OSI layer are “Packets” created?",
+              {
+                    "Physical": false,
+                    "Data Link": false,
+                    "Network":true,
+                    "Transport": false
+                }
+            ],
+            ["Q-->27 In OSI model stands for",
+              {
+                    "Open system internet": false,
+                    "Open system interconnection": true,
+                    "Operating system internet":false,
+                    "None": false
+                }
+            ],
+            ["Q-->28 OSI model developed by",
+              {
+                    "OSI": false,
+                    "SOI": false,
+                    "ISO":true,
+                    "Google": false
+                }
+            ],
+            ["Q-->29 coverting digital bits into an electical,radio or optical single takes place at which layer of OSI Model",
+              {
+                    "Application layer": false,
+                    "Physical layer": true,
+                    "Session layer":false,
+                    "Network layer": false
+                }
+            ],
+            ["Q-->30 In Which  from data transferred in Network layer ",
+              {
+                    "Packets": true,
+                    "Bytes": false,
+                    "Dataram":false,
                     "all of these": false
                 }
             ],
-            ["Q-->40 which of the following is not input device",
-                {
-                    "Touch pad": false,
-                    "Mouse": false,
-                    "Printer": true,
-                    "keyboard": false
-                }
-            ],
-            ["Q-->41 CPU consist of ___",
-                {
-                    "ALU + CU": true,
-                    "ROM + ALU": false,
-                    "RAM + ROM": false,
-                    "None of these": false
-                }
-            ],
-            ["Q-->42 computer size was very larger in ?",
-                {
-                    " first Generation computer": true,
-                    "second Generation computer": false,
-                    "third Generation computer": false,
-                    "fourth Generation computer": false
-                }
-            ],
-            ["Q-->43 High dencity double sided floppy disks could store _____ of data ?",
-                {
-                    " 1.40 MB": false,
-                    "1.44 GB": false,
-                    "1.40 GB": false,
-                    "1.44 MB": true
-                }
-            ],
-            ["Q-->44 who is inventor of the transistor",
-                {
-                    "charles babbage": false,
-                    "william shockley": true,
-                    "jona": false,
+            ["Q-->31 Allow data processing close to devices ",
+              {
+                    "Edge Computing ": true,
+                    "Cloud computing": false,
+                    "fog computing":false,
                     "none": false
                 }
             ],
-            ["Q-->45 which is example of super computer ?",
-                {
-                    "CRAY-1": true,
-                    "GRAM": false,
-                    "RAM": false,
+            ["Q-->32 Each IP address must contain :",
+              {
+                    "Only destination Ip Address": false,
+                    "Only source IP Address": false,
+                    "source and destination Ip address":false,
+                    "None": false
+                }
+            ],
+            ["Q-->33 Traffic light system is the example of:",
+              {
+                    "Open Loop System": true,
+                    "Close Loop system": false,
+                    "Both":false,
+                    "None": false
+                }
+            ],
+            ["Q-->34 IoT communication protocols include:",
+              {
+                    " MQTT, CoAP, HTTP": true,
+                    "HTML, CSS, JS": false,
+                    "LAN, WAN, MAN":false,
+                    "SQL, NoSQL": false
+                }
+            ],
+            ["Q-->35 The network layer in IoT is mainly responsible for:",
+              {
+                    "Data sensing": false,
+                    "Data transmission": true,
+                    "User interface design":false,
+                    "Business decision-making": false
+                }
+            ],
+            ["Q-->36 Which of the following is a popular IoT development board?",
+              {
+                    "Arduino": true,
+                    " Photoshop": false,
+                    "Microsoft Word":false,
+                    "MS Excel": false
+                }
+            ],
+            ["Q-->37 Which of these is an IoT Cloud platform?",
+              {
+                    "AWS IoT": true,
+                    "Adobe Photoshop": false,
+                    "Oracle DBMS":false,
+                    "MS PowerPoint": false
+                }
+            ],
+            ["Q-->38 IoT-based wearable devices include:",
+              {
+                    "Smart watches": true,
+                    "Smart bulbs": false,
+                    "Smart irrigation systems":false,
+                    "Smart speakers only": false
+                }
+            ],
+            ["Q-->39 Which of the following is NOT a characteristic of IoT?",
+              {
+                    "Connectivity": false,
+                    "Scalability": false,
+                    "Isolation":true,
+                    "Intelligence": false
+                }
+            ],
+            ["Q-->40 What does IoT stand for?",
+              {
+                    "Internet of Topics": false,
+                    "nternet of Tools": false,
+                    "Internet of Things":false,
+                    "nternet of Technology": true
+                }
+            ],
+            ["Q-->41 identify among the following which is not a data link layer technology",
+              {
+                    "UART": false,
+                    "Wifi": false,
+                    "Bluetooth":false,
+                    "HTTP": true
+                }
+            ],
+            ["Q-->42 Which of the following is not a TCP/IP layer? ",
+              {
+                    "Application layer": false,
+                    "Data link layer": true,
+                    "Network layer":false,
+                    "Transport layer": false
+                }
+            ],
+            ["Q-->43 WOT reduces the___ of HTTP",
+              {
+                    "Load": false,
+                    "Overload": false,
+                    "Overhead":true,
+                    "Overrun": false
+                }
+            ],
+            ["Q-->44 Which application layer protocal ia responsible for machine to machine commnunication in restricted enviroment",
+              {
+                    "MQTT": true,
+                    "FTP": false,
+                    "CoAP":false,
+                    "XMPP": false
+                }
+            ],
+            ["Q-->45 VPN is stand for",
+              {
+                    "virtual public network": false,
+                    "virtual private network": true,
+                    "virtual protocal network":false,
                     "none": false
                 }
             ],
-            ["Q-->46 It is part of CPU ?",
-                {
-                    "Keyboard": false,
-                    "Mouse": false,
-                    "ALU": true,
+            ["Q-->46 MOSI is stand for",
+              {
+                    "Master output slave input": true,
+                    "Master input slave output": false,
+                    "Both":false,
+                    "None": false
+                }
+            ],
+            ["Q-->47 BLE is stands for ",
+              {
+                    "Bluetooth low network": false,
+                    "body Low network ": false,
+                    "Bluetooth Low  Energy":true,
+                    "None": false
+                }
+            ],
+            ["Q-->48 ____ does the SPI Protocal use",
+              {
+                    "3 Wired": false,
+                    "4 Wired": true,
+                    "5 Wired":false,
+                    "6 Wired": false
+                }
+            ],
+            ["Q-->49 Which of the following is not the component of IOT end point",
+              {
+                    "Router": false,
+                    "Gateway": true,
+                    "Both":false,
                     "none": false
                 }
             ],
-            ["Q-->47 computer Literacy day is celebrated on ?",
-                {
-                    "2 December": true,
-                    "22 December": false,
-                    "2 September": false,
-                    "22 September": false
-                }
-            ],
-            ["Q-->48 which of the following is correct?",
-                {
-                    "Both RAM and ROM are  volatile": false,
-                    "Both RAM is nonvaltile but  ROM is  volatile": false,
-                    "RAM is valatile but ROM is  nonvolatile": true,
-                    "None of these": false
-                }
-            ],
-            ["Q-->49 secordary memory device is",
-                {
-                    "ALU": false,
-                    "CPU": false,
-                    "CD": true,
-                    "Mouse": false
-                }
-            ],
-            ["Q-->50 VDU is also called ",
-                {
-                    "Moniter": false,
-                    "Display": true,
-                    "Both": true,
-                    "Printer": false
+            ["Q-->50 How many number of Elements in the open Iot Architecture",
+              {
+                    "3 element": false,
+                    "4 element": false,
+                    "7 element":true,
+                    "8 element": false
                 }
             ]
+            
 
         ];
 
-       
+
         let index = 0;
         let total = 0;
         let answered = new Array(q.length).fill(false);
@@ -632,7 +633,7 @@ function login_usar(){
 
 
 // API call for google sheets
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzoKUnt8FDdJJdgflSeweThM9I2k2DTUzw1bau2L6KnutRnj1UPbhZ1vLoRCEG-jTZT/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcqVjhzWgEC6lXxxDWuzJiVR5ldpDvYO6E3kKIdTA22EGrBu8/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
@@ -641,4 +642,3 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzoKUnt8FDdJJdgflSewe
                 .then(response => alert("Thanks you ! your test submited"))
                 .catch(error => console.error('Error!', error.message))
             })
-
