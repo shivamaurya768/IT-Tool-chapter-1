@@ -632,7 +632,7 @@ function login_usar(){
 
 
 // API call for google sheets
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcqVjhzWgEC6lXxxDWuzJiVR5ldpDvYO6E3kKIdTA22EGrBu8/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzoKUnt8FDdJJdgflSeweThM9I2k2DTUzw1bau2L6KnutRnj1UPbhZ1vLoRCEG-jTZT/exec';
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
@@ -641,4 +641,5 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcq
                 .then(response => alert("Thanks you ! your test submited"))
                 .catch(error => console.error('Error!', error.message))
             })
+
 
