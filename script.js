@@ -39,10 +39,10 @@ let q = [
                     "AI": false
                 }
             ],
-            ["Q-->6 which of the following are devices",
+            ["Q-->6 which of the following are Output devices",
                 {
                     "hardware": false,
-                    "printer": false,
+                    "printer": true,
                     "light pen": false,
                     "all of the above": false
                 }
@@ -71,7 +71,7 @@ let q = [
                     "fourth generation": false
                 }
             ],
-            ["Q-->10 which of following is not input device ?",
+            ["Q-->10 which of following is not input devices ?",
                 {
                     "keyboard ": false,
                     "joystick": false,
@@ -79,10 +79,10 @@ let q = [
                     "all of the above": true
                 }
             ],
-            ["Q-->11 if you have 4G of RAM how many megabytes do you have ?",
+            ["Q-->11 if you have 4GB of RAM how many megabytes do you have ?",
                 {
                     "4000 MB": false,
-                    "4096 MB": false,
+                    "4096 MB": true,
                     "2048 MB": false,
                     "8192 MB": false
                 }
@@ -155,8 +155,8 @@ let q = [
                 {
                     "can be null": false,
                     "can not be null": true,
-                    "": false,
-                    "": false
+                    "Both": false,
+                    "None": false
                 }
             ],
             ["Q-->21 which one of the following is volatile",
@@ -327,7 +327,7 @@ let q = [
                     "None of these": false
                 }
             ],
-            ["Q-->42 computer size was very in ?",
+            ["Q-->42 computer size was large very in ?",
                 {
                     " first Generation computer": true,
                     "second Generation computer": false,
@@ -379,7 +379,7 @@ let q = [
                 {
                     "Both RAM and ROM are  volatile": false,
                     "Both RAM is nonvaltile but  ROM is  volatile": false,
-                    "RAM is valatile but ROM is  nonvolatile": true,
+                    "RAM is volatile but ROM is  non-volatile": true,
                     "None of these": false
                 }
             ],
